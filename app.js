@@ -66,7 +66,7 @@ var numToGuess = 6;
 var count = 4;
 while (count > 0) {
   var questionSix = parseInt(prompt('Choose a number from 1 - 10'));
-    if (questionSix === numToGuess) {
+  if (questionSix === numToGuess) {
       alert('You got it');
       break;
     } else {
@@ -84,4 +84,36 @@ while (count > 0) {
         count--;
     }
   }
+}
+
+var tries = 6;
+var myArray = ['lexus', 'porsche', 'audi'];
+var slick = true;
+for (;tries > 0;) {
+  var answerToQuestion = prompt('What brands of car do I want?').toLowerCase();
+  if (tries === 1) {
+    alert('Sorry you lost the options were Lexus, Porsche and Audi!');
+    break;
+  } else {
+    if (answerToQuestion === myArray[0]) {
+      alert('Lexus is correct');
+      slick = false;
+      break;
+    } else if (answerToQuestion === myArray[1]) {
+      alert('Porsche is correct');
+      slick = false;
+      break;
+    } else if (answerToQuestion === myArray[2]) {
+      alert('Audi is correct');
+      slick = false;
+      break;
+    } else {
+      alert('wrong');
+      console.log(tries);
+      tries--;
+    }
+  }
+}
+if (slick === false) {
+  alert('Wow, how did you know? \nThe options were Lexus, Porsche and Audi!');
 }
