@@ -1,3 +1,22 @@
-* {
-  color:red;
+body {
+  background-color: #ffd633;
+}
+header {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+section>h3 {
+	width: 20%;
+  font-size: 1.2em
+}
+section>p {
+  color: blue;
+	width: 70%;
+  font-size: 1.2em
+}
+footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
 }
