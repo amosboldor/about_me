@@ -53,6 +53,9 @@ if (questionFour === 'yes' || questionFour === 'y') {
 } else if (questionFour === 'no' || questionFour === 'n') {
   alert('No ' + userName + ' you are so wrong!');
   console.log('The user ' + userName + ' got the question do I love the TV show Rick and Morty [wrong].');
+} else {
+  alert('Wrong input refresh and try again!');
+  console.log('Wrong input refresh and try again!');
 }
 
 var questionFive = prompt('Do I plan on visiting Somalia?').toLowerCase();
