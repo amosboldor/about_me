@@ -1,51 +1,68 @@
 body {
-  background-color: #ffd633;
+  background-image: url(img/403441.gif);
+  background-size: contain;
+  color: white;
+}
+.blended_grid {
+  display : block;
+  width : 1400px;
+  overflow : auto;
+  margin : 30px auto 30px auto;
+  border: 2px solid #ff3300;
 }
 header {
-  border: 5px solid Red;
-  background-color: #3399ff;
-  padding: 50px;
+  background: rgba(0,255,255, 0.5);
+  float: left;
+  clear: none;
+  height: 150px;
+  width: 1400px;
+  text-align: center;
+}
+header>h1,h2 {
+
+}
+.sideone {
+  background: rgba(124,252,0, 0.5);
+  float: left;
+  clear: none;
+  height: 600px;
   width: 400px;
-  margin: 10px, auto, 10px, auto;
+}
+.sidetwo {
+  background: rgba(124,252,0, 0.5);
+  float: left;
+  clear: none;
+  height: 600px;
+  width: 1000px;
+}
+div>p, div>h3 {
   text-align: center;
-  color: green;
-}
-section>h3 {
-	width: 20%;
-  font-size: 1.2em
-}
-section>p {
+  margin: 0 auto;
   width: 500px;
-  text-align: center;
 }
-ul, ol {
-  background-color: #3399ff;
-  width: 300px;
-  border: 25px solid green;
-  padding: 25px;
-  margin: 25px;
-  width: 700px;
-}
-ol>li, ul>ul>li {
-  background-color: #cce5ff;
-  width: 600px;
+section {
+  margin: 0 auto;
+  width: 200px;
 }
 footer {
-  height: 100px;
-  width: 100%;
+ background: rgba(0,255,255, 0.5);
+  float: left;
+  clear: none;
+  height: 150px;
+  width: 1400px;
   text-align: center;
 }
-figure {
-  float: right;
-  width:400px;
-  height:400px;
-  border: 5px solid Red;
-}
-img {
-  width:400px;
-  height:400px;
+figure>img {
+  width: 320px;
+  height: 320px;
 }
 figcaption {
-  border: 5px solid green;
-  background-color: #3399ff;
+  text-align: center;
+  border: 1px solid orange;
+  background-color: black;
+}
+.ul {
+  margin: 0 auto;
+  width: 500px;
+
 }
